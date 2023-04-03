@@ -1,0 +1,387 @@
+body {
+    background-color: #374151;
+}
+.App {
+    width: 78%;
+    margin: auto;
+}
+.laptop {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+
+/* Header */
+.logo {
+    width: 35px;
+    height: 25px;
+    background: #4B5563;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3%;
+    opacity: 0.8;
+}
+
+.logoname {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.navbar {
+    margin-top: 2rem;
+    width: 100%;
+    height: fit-content;
+}
+.bar1 {
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar1h {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.bar3h {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 600ms ease-out;
+}
+.bar2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar3 {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar3h:hover {
+    font-weight: 600;
+    opacity: 1;
+}
+.bari {
+    width: 224px;
+    height: 35px;
+    background: rgba(31, 41, 55, 0.6);
+    border-radius: 100px;
+    border: none;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-left: 2%;
+}
+.bar4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Latest Post */
+
+.latestimg {
+    width: 680px;
+    height: 389px;
+    background: url('./flower.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.l1 {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    width: 140px;
+}
+.l2 {
+    width: 339px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.l3 {
+    width: 283px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('./flower.jpg');
+    background-size: cover;
+}
+.profilename {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1em;
+    padding-left: 2%;
+    color: #FFFFFF;
+}
+.l4 {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.profile {
+    width: 48.5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.latestpost {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post1img {
+    width: 340px;
+    height: 213px;
+    background: url('./flower.jpg');
+    border-radius: 10px;
+    background-size: cover;
+}
+.post1i {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    width: 339px;
+    height: 76px;
+    color: #FFFFFF;
+}
+.post1ii {
+    width: 337px;
+    height: 84px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.postprofile {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.post1 {
+    width: 32%;
+    height: fit-content;
+}
+.postscontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+.footerword {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-align: center;
+}
+
+/* Detail */
+
+.d1 {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    text-align: center;
+}
+.d2 {
+    text-align: center;
+    height: 76px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1em;
+    color: #FFFFFF;
+}
+.postprofiles {
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.d3 {
+    width: 896px;
+    height: 594px;
+    background: url('./flower.jpg'), #C4C4C4;
+    border-radius: 5px;
+    margin: auto;
+    background-size: cover;
+}
+.d4 {
+    width: 708px;
+    height: 101px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-left: 13%;
+    opacity: 0.7;
+
+}
+.d5 {
+    width: 708px;
+    height: 281px;
+    left: 366px;
+    top: 1176px;
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-left: 13%;
+    opacity: 0.7;
+}
+.u1 {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* mobile view */
+@media only screen and (max-width:600px) {
+    .laptop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .bar1m {
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .latestimgm {
+        width: 320px;
+        height: 176px;
+        background: url('./flower.jpg'), #C4C4C4;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .App {
+        width: 90%;
+        margin: auto;
+    }
+    .post1imgm {
+        width: 320px;
+        height: 200px;
+        background: url('./flower.jpg'), #C4C4C4;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .postflexm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .postprofilesm {
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+    .d3m {
+        width: 320px;
+        height: 181px;
+        background: url('./flower.jpg'), #C4C4C4;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .d4m {
+        font-family: 'Patrick Hand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    .d5m {
+        font-family: 'Patrick Hand';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
