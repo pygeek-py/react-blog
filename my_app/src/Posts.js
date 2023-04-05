@@ -8,7 +8,7 @@ const Posts = () => {
                 <div className="postscontainer">
                     <div className="post1">
                         <div className="post1img"></div>
-                        <h3 className="l1">UI Design - July 21, 2023</h3>
+                        <h3 className="l1">UI Design - July 22, 2023</h3>
                         
                         <h1 className="post1i" onClick={() => {window.location = "/detail" }}>How to design a product that can grow itself 10x in year</h1>
                         
@@ -25,7 +25,7 @@ const Posts = () => {
 
                     <div className="post1">
                         <div className="post1img"></div>
-                        <h3 className="l1">UI Design - July 21, 2023</h3>
+                        <h3 className="l1">UI Design - July 23, 2023</h3>
                         <h1 className="post1i" onClick={() => {window.location = "/detail" }}>How to design a product that can grow itself 10x in year</h1>
                         <h1 className="post1ii">Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.</h1>
                         <div className="postprofile">
@@ -40,7 +40,7 @@ const Posts = () => {
 
                     <div className="post1">
                         <div className="post1img"></div>
-                        <h3 className="l1">UI Design - July 21, 2023</h3>
+                        <h3 className="l1">UI Design - July 24, 2023</h3>
                         <h1 className="post1i" onClick={() => {window.location = "/detail" }}>How to design a product that can grow itself 10x in year</h1>
                         <h1 className="post1ii">Auctor Porta. Augue vitae diam mauris faucibus blandit elit per, feugiat leo dui orci. Etiam vestibulum. Nostra netus per conubia dolor.</h1>
                         <div className="postprofile">
