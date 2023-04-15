@@ -1,7 +1,17 @@
-function Footer() {
+const Footer = () => {
     return (
         <div>
-            <h3 className="footerword">Copyright (c) 2021 - Design By Nauval</h3>
+            <div className="big">
+                <div className="footers">
+                    <h1 className="foot1">Timesavers 2022</h1>
+                </div>
+            </div>
+
+            <div className="small">
+                <div className="footers">
+                    <h1 className="foot1s">Timesavers 2022</h1>
+                </div>
+            </div>
         </div>
     );
 }

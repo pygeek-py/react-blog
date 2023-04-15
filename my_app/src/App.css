@@ -1,387 +1,623 @@
-body {
-    background-color: #374151;
-}
-.App {
-    width: 78%;
-    margin: auto;
-}
-.laptop {
+.big {
     display: block;
 }
-.mobile {
+.small {
     display: none;
 }
-
-/* Header */
-.logo {
-    width: 35px;
-    height: 25px;
-    background: #4B5563;
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
-    border-radius: 3px;
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 23px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 3%;
-    opacity: 0.8;
-}
-
-.logoname {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-    opacity: 0.9;
-}
-.navbar {
-    margin-top: 2rem;
+.Headers {
     width: 100%;
-    height: fit-content;
+    height: 608px;
+    background: linear-gradient(294.47deg, rgba(0, 0, 0, 0.78) 56.01%, rgba(0, 0, 0, 0) 92.44%), linear-gradient(0deg, rgba(0, 28, 71, 0.73), rgba(0, 28, 71, 0.73)), url("bike.jpg");
+    background-size: cover;
 }
-.bar1 {
-    width: 22%;
+.logo {
+    font-size: large;
+    font-family: fantasy;
+    font-weight: 400;
+    color: white;
+}
+.basebar {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+.flexbar {
+    width: 58%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bar1h {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-    opacity: 0.9;
+.iconflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.bar3h {
-    font-family: 'Patrick Hand';
+.ico {
+    font-size: 1rem;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.icons {
+    width: 4.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sech {
+    font-family: Figtree;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 19px;
     color: #FFFFFF;
-    opacity: 0.9;
-    cursor: pointer;
-    transition: all 600ms ease-out;
 }
-.bar2 {
+.logosectors {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bar3 {
+
+/* -----------------------------HeadBody-------------------------- */
+.basebody {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body1h {
+    width: 423px;
+    height: 144px;
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 66px;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+.body1hs {
+    width: 300px;
+    height: 22px;
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.body1b {
+    width: 156px;
+    height: 58px;
+    background: #022569;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.bodyimg {
+    width: 35%;
+    height: 352px;
+    background-image: url("kindpng_652966.png");
+    background-size: cover;
+    margin-top: 10%;
+}
+.onebig {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bar3h:hover {
-    font-weight: 600;
-    opacity: 1;
-}
-.bari {
-    width: 224px;
-    height: 35px;
-    background: rgba(31, 41, 55, 0.6);
-    border-radius: 100px;
-    border: none;
-    font-family: 'Patrick Hand';
+.len {
+    width: 76px;
+    height: 22px;
+    font-family: Figtree;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    opacity: 0.6;
-    padding-left: 2%;
 }
-.bar4 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.lens {
+    width: 138px;
+    height: 22px;
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
-/* Latest Post */
 
-.latestimg {
-    width: 680px;
-    height: 389px;
-    background: url('./flower.jpg');
-    background-size: cover;
-    border-radius: 10px;
-}
-.l1 {
-    font-family: 'Patrick Hand';
+/* ----------------------------------Body----------------------------*/
+.bo1 {
+    font-family: 'Figtree';
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    opacity: 0.6;
-    color: #FFFFFF;
-    width: 140px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
 }
-.l2 {
-    width: 339px;
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    color: #FFFFFF;
-}
-.l3 {
-    width: 283px;
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: rgba(255, 255, 255, 0.6);
-}
-.profilepic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: url('./flower.jpg');
-    background-size: cover;
-}
-.profilename {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1em;
-    padding-left: 2%;
-    color: #FFFFFF;
-}
-.l4 {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    color: #FFFFFF;
-    opacity: 0.6;
-}
-.profile {
-    width: 48.5%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-.latestpost {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.post1img {
-    width: 340px;
-    height: 213px;
-    background: url('./flower.jpg');
-    border-radius: 10px;
-    background-size: cover;
-}
-.post1i {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    width: 339px;
-    height: 76px;
-    color: #FFFFFF;
-}
-.post1ii {
-    width: 337px;
-    height: 84px;
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: rgba(255, 255, 255, 0.6);
-}
-.postprofile {
-    width: 49%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-}
-.post1 {
-    width: 32%;
+.product {
+    width: 80%;
     height: fit-content;
-}
-.postscontainer {
-    width: 100%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-
-/* Footer */
-
-.footerword {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    opacity: 0.6;
-    text-align: center;
+.pro1img {
+    width: 350px;
+    height: 350px;
+    background: #F0F0F0;
+    background-size: cover; 
 }
-
-/* Detail */
-
-.d1 {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    opacity: 0.6;
-    color: #FFFFFF;
-    text-align: center;
+.imgg {
+    width: 60%;
+    height: 352px;
+    margin-left: 20%;
 }
-.d2 {
-    text-align: center;
-    height: 76px;
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1em;
-    color: #FFFFFF;
-}
-.postprofiles {
-    width: 16%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-}
-.d3 {
-    width: 896px;
-    height: 594px;
-    background: url('./flower.jpg'), #C4C4C4;
-    border-radius: 5px;
-    margin: auto;
-    background-size: cover;
-}
-.d4 {
-    width: 708px;
-    height: 101px;
-    font-family: 'Patrick Hand';
+.bo2 {
+    width: 112px;
+    height: 24px;
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
-    color: #FFFFFF;
-    padding-left: 13%;
-    opacity: 0.7;
-
+    line-height: 24px;
+    color: #000000;
 }
-.d5 {
-    width: 708px;
-    height: 281px;
-    left: 366px;
-    top: 1176px;
-    font-family: 'Patrick Hand';
+.pro1 {
+    width: 33%;
+    height: fit-content;
+    margin-top: 2%;
+}
+.pro1flex {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bo2i {
+    font-size: 18px;
+    color: #2194FF;
+}
+.do1 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    text-align: center;
+}
+.deal1 {
+    width: 541px;
+    height: 387px;
+    background: #112B5F;
+}
+.deal1img {
+    width: 60%;
+    height: 382px;
+    margin-left: 20%;
+}
+.dealpro {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deal2i {
+    width: 518px;
+    height: 183px;
+    background: #FFF2C7;
+}
+.deal2img {
+    width: 40%;
+    height: 152px;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+.deal2ii {
+    width: 518px;
+    height: 183px;
+    background: #DDDDDD;
+}
+
+
+/* ---------------------------Testimonial-----------------------*/
+.tes1 {
+    text-align: center;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.19em;
+    color: #022569;
+    padding-top: 5%;
+}
+.tes2 {
+    text-align: center;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.tes4 {
+    width: 414px;
+    height: 556px;
+}
+.tes4img {
+    width: 100%;
+    height: 100%;
+}
+.tes3 {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tes5 {
+    width: 690px;
+    height: 316px;
+    background: #FFF2C7;
+}
+.tes6 {
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.tes8 {
+    width: 41px;
+    height: 33px;
+    background: url('th.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+.tes9 {
+    width: 85px;
+    height: 75px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 75px;
+    color: #000000;
+}
+.tes7 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tes10 {
+    width: 509px;
+    height: 67px;
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    color: #FFFFFF;
-    padding-left: 13%;
-    opacity: 0.7;
-}
-.u1 {
-    font-family: 'Patrick Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 34px;
     line-height: 28px;
+    color: #000000;
+}
+.tes11 {
+    width: 90px;
+    height: 30px;
+    background: #112B5F;
+}
+.tes12 {
+    font-size: 1rem;
+    font-weight: 200;
     color: #FFFFFF;
     text-align: center;
+    padding-top: 8%;
+}
+/* ----------------------------------Footer----------------------------*/
+.footers {
+    position: absolute;
+    width: 100%;
+    height: 90px; 
+    background: #112B5F;
+}
+.foot1 {
+    position: absolute;
+    width: 158px;
+    height: 28px;
+    left: 651px;
+    top: 24px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
 
+/* responsiveness phone */
 
-/* mobile view */
-@media only screen and (max-width:600px) {
-    .laptop {
+@media only screen and (max-width:800px) {
+    .big {
         display: none;
     }
-    .mobile {
+    .small {
         display: block;
     }
-    .bar1m {
-        width: 35%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .latestimgm {
-        width: 320px;
-        height: 176px;
-        background: url('./flower.jpg'), #C4C4C4;
+    .Headers {
+        width: 100%;
+        height: 765px;
+        background: linear-gradient(294.47deg, rgba(0, 0, 0, 0.78) 56.01%, rgba(0, 0, 0, 0) 92.44%), linear-gradient(0deg, rgba(0, 28, 71, 0.73), rgba(0, 28, 71, 0.73)), url("bike.jpg");
         background-size: cover;
-        border-radius: 10px;
     }
-    .App {
-        width: 90%;
+    .footers {
+        width: 100%;
+        height: 90px;
+        background: #112B5F;
+    }
+    .basebar {
+        width: 80%;
+        height: fit-content;
         margin: auto;
     }
-    .post1imgm {
-        width: 320px;
-        height: 200px;
-        background: url('./flower.jpg'), #C4C4C4;
-        background-size: cover;
-        border-radius: 10px;
-    }
-    .postflexm {
+    .iconflex {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
-    .postprofilesm {
-        width: 49%;
+    .icons {
+        width: 14%;
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
         align-items: center;
+    }
+    .logo {
+        font-size: large;
+        font-family: fantasy;
+        font-weight: 400;
+        color: white;
+    }
+    .icos {
+        font-size: 1.3rem;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    .ico {
+        font-size: 1.2rem;
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    .basebody {
+        width: 80%;
+        height: fit-content;
         margin: auto;
+        flex-wrap: wrap;
     }
-    .d3m {
-        width: 320px;
-        height: 181px;
-        background: url('./flower.jpg'), #C4C4C4;
-        background-size: cover;
-        border-radius: 5px;
+    .body1 {
+        width: 100%;
+        height: fit-content;
     }
-    .d4m {
-        font-family: 'Patrick Hand';
+    .body1h {
+        width: 305px;
+        height: 144px;
+        font-family: Figtree;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+        letter-spacing: -0.01em;
+        color: #FFFFFF;
+    }
+    .body1hs {
+        font-family: Figtree;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 32px;
         color: #FFFFFF;
     }
-    .d5m {
-        font-family: 'Patrick Hand';
+    .body1b {
+        width: 156px;
+        height: 58px;
+        background: #022569;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .bodyimg {
+        width: 75%;
+        height: 352px;
+        background-image: url("kindpng_652966.png");
+        background-size: cover;
+        margin-top: 10%;
+    }
+    .body2 {
+        width: 100%;
+        height: fit-content;
+    }
+    .bo1 {
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 48px;
+        color: #000000;
+        text-align: center;
+    }
+    .product {
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .pro1 {
+        width: 98%;
+        height: fit-content;
+        margin-top: 8%;
+    }
+    .pro1img {
+        width: 100%;
+        height: 350px;
+        background: #F0F0F0;
+        background-size: cover; 
+    }
+    .pro1flex {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgg {
+        width: 60%;
+        height: 352px;
+        margin-left: 20%;
+    }
+    .bo2 {
+        width: 112px;
+        height: 24px;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    .do1 {
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 48px;
+        color: #000000;
+        text-align: center;
+    }
+    .deal1 {
+        width: 541px;
+        height: 387px;
+        background: #112B5F;
+    }
+    .deal1img {
+        width: 60%;
+        height: 382px;
+        margin-left: 20%;
+    }
+    .dealpro {
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .deal2i {
+        width: 100%;
+        height: 220px;
+        background: #FFF2C7;
+        margin-top: 8%;
+    }
+    .deal2img {
+        width: 40%;
+        height: 152px;
+        margin-left: 30%;
+        margin-top: 12%;
+    }
+    .deal2ii {
+        width: 100%;
+        height: 220px;
+        background: #DDDDDD;
+        margin-top: 8%;
+    }
+    .tes1 {
+        text-align: center;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 0.19em;
+        color: #022569;
+        padding-top: 5%;
+    }
+    .tes2 {
+        text-align: center;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    .tes4 {
+        width: 414px;
+        height: 556px;
+    }
+    .tes4img {
+        width: 100%;
+        height: 100%;
+    }
+    .tes3 {
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .tes5 {
+        width: 100%;
+        height: 316px;
+        background: #FFF2C7;
+    }
+    .tes6 {
+        width: 80%;
+        margin: auto;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+    .tes7 {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tes10 {
+        width: 250px;
+        height: 67px;
+        font-family: 'Figtree';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 28px;
+        color: #000000;
+        padding-bottom: 10%;
+    }
+    .foot1 {
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
         color: #FFFFFF;
+        display: none;
+    }
+    .foot1s {
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 5%;
     }
 }
